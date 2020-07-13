@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end 
   
   get '/' do 
-    "Buster's Best Bowling Alley!"
+    "<h1>Buster's Best Bowling Alley!</h1>"
   end 
   
 end 
