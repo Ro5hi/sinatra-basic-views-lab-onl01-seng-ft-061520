@@ -4,6 +4,14 @@ class App < Sinatra::Base
   
   get '/' do
     erb :index 
+  end
+  
+  get '/name' do 
+    erb :index 
+  end 
+  
+  get '/address' do 
+    erb :index 
   end 
    
   
