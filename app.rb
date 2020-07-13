@@ -5,7 +5,7 @@ class App < Sinatra::Base
   get '/' do
   end 
   
-  get '/name' do 
+  get '/' do 
     "Buster's Best Bowling Alley!"
   end 
   
