@@ -6,13 +6,4 @@ class App < Sinatra::Base
     erb :index 
   end
   
-  get '/name' do 
-    erb :index 
-  end 
-  
-  get '/address' do 
-    erb :index 
-  end 
-   
-  
 end 
